@@ -43,7 +43,7 @@ export class TemperatureMeasurementServer extends Base {
       case undefined:
         return value * 100;
       default:
-        return null;
+        //return null;
     }
   }
 }
